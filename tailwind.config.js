@@ -5,7 +5,11 @@ export default {
     './src/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        hoverNavLink: 'rgba(80, 48, 229, 0.08)',
+      },
+    },
   },
   plugins: [],
 };
