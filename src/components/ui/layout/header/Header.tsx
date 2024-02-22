@@ -1,7 +1,7 @@
 // Header.tsx
 export default function Header() {
   return (
-    <header className="h-[88px] flex justify-between">
+    <header className="h-[88px] flex justify-between border-solid border-b-[1px] border-[#DBDBDB]">
       <div className="container mx-auto flex items-center justify-between">
         <h1 className="text-2xl font-bold">My Website</h1>
         <nav>

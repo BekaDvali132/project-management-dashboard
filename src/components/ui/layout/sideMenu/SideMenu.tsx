@@ -1,17 +1,18 @@
 import { JSX } from 'react';
+import NavList from './components/NavList.tsx';
+import ProjectsList from './components/ProjectsList.tsx';
+import ShareThoughts from './components/ShareThoughts.tsx';
 
 function SideMenu(): JSX.Element {
   return (
-    <div className="flex flex-col w-64 bg-gray-200">
-      <div className="p-4">
-        <h1 className="text-xl font-bold">Menu</h1>
+    <div className="flex flex-col w-64 border-solid border-r-[1px] border-[#DBDBDB] gap-[30px] h-screen">
+      <div className="flex justify-center items-center h-[88px] border-solid border-b-[1px] border-[#DBDBDB] hover:bg-[rgba(80, 48, 229, 0.08)]">
+        <p>Project Mng.</p>
       </div>
-      <ul className="flex flex-col p-4">
-        <li className="py-2">Item 1</li>
-        <li className="py-2">Item 2</li>
-        <li className="py-2">Item 3</li>
-        <li className="py-2">Item 4</li>
-      </ul>
+      <NavList />
+      <div className="w-full h-[1px] bg-[#DBDBDB]" />
+      <ProjectsList />
+      <ShareThoughts />
     </div>
   );
 }
