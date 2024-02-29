@@ -5,7 +5,7 @@ import Bulb from '../../../../../assets/svgs/lamp.svg?react';
 
 export default function ShareThoughts():JSX.Element {
   return (
-    <div className="mt-auto px-[30px] py-[25px] flex flex-col items-center">
+    <div className="px-[30px] py-[25px] flex flex-col items-center">
       <div className="h-[200px] w-full rounded-lg share-thoughts">
         <div className="share-thougths-bulb">
           <Bulb />
