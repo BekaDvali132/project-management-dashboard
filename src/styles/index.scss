@@ -29,3 +29,16 @@
     transform: translate(-50%, -50%) rotate(90deg) ;
   }
 }
+
+.inactive-placement {
+  path {
+    fill: #787486;
+  }
+}
+
+.active-placement {
+  path {
+    fill: #fff;
+    stroke: #fff;
+  }
+}
